@@ -1,117 +1,133 @@
 <!doctype html>
-<html lang="en">
+<html lang="bn">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>About | EduVision</title>
+  <script>try{if(localStorage.getItem("site-lang")==="en"){document.documentElement.lang="en";document.documentElement.classList.add("lang-pending");}}catch(e){}</script>
+  <title data-en="About | Shapla Ideal School &amp; College">পরিচিতি | শাপলা আইডিয়াল স্কুল অ্যান্ড কলেজ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="topbar">
-    <div class="container"><span>📞 +880 1700 000000</span><span>✉ info@eduvision.edu.bd</span><span><span
-          data-en>Admissions open for 2026–27</span><span data-bn>২০২৬–২৭ শিক্ষাবর্ষে ভর্তি চলছে</span></span></div>
+    <div class="container"><span>📞 <span data-en="+880 1700-000000">০১৭০০-০০০০০০</span></span><span>✉ info@yourschool.edu.bd</span><span data-en="Admissions open for the 2027 session">২০২৭ শিক্ষাবর্ষে ভর্তি চলছে</span></div>
   </div>
   <header class="header">
     <nav class="container nav">
-      <a class="logo" href="index.html"><span class="logo-mark">E</span><span>EduVision<small><span data-en>SCHOOL &
-              COLLEGE</span><span data-bn>স্কুল ও কলেজ</span></small></span></a>
-      <button class="menu-btn" aria-label="Menu">☰</button>
+      <a class="logo" href="index.html"><span class="logo-mark">শা</span><span><span data-en="Shapla Ideal">শাপলা আইডিয়াল</span><small data-en="SCHOOL &amp; COLLEGE · RAJSHAHI">স্কুল অ্যান্ড কলেজ · রাজশাহী</small></span></a>
+      <button class="menu-btn" aria-label="মেনু" data-en-aria-label="Menu">☰</button>
       <ul class="nav-links">
-        <li><a href="index.html"><span data-en>Home</span><span data-bn>হোম</span></a></li>
-        <li><a href="about.html" class="active"><span data-en>About</span><span data-bn>আমাদের সম্পর্কে</span></a></li>
-        <li><a href="academics.html"><span data-en>Academics</span><span data-bn>শিক্ষা কার্যক্রম</span></a></li>
-        <li><a href="admissions.html"><span data-en>Admissions</span><span data-bn>ভর্তি</span></a></li>
-        <li><a href="teachers.html"><span data-en>Teachers</span><span data-bn>শিক্ষকবৃন্দ</span></a></li>
-        <li><a href="students.html"><span data-en>Students</span><span data-bn>শিক্ষার্থীবৃন্দ</span></a></li>
-        <li><a href="results.html"><span data-en>Results</span><span data-bn>ফলাফল</span></a></li>
-        <li><a href="events.html"><span data-en>Events</span><span data-bn>ইভেন্ট</span></a></li>
-        <li><a href="gallery.html"><span data-en>Gallery</span><span data-bn>গ্যালারি</span></a></li>
-        <li><a href="notice.html"><span data-en>Notices</span><span data-bn>নোটিশ</span></a></li>
-        <li><a href="contact.html"><span data-en>Contact</span><span data-bn>যোগাযোগ</span></a></li>
+        <li><a href="index.html" data-en="Home">হোম</a></li>
+        <li><a href="about.html" class="active" data-en="About">পরিচিতি</a></li>
+        <li><a href="academics.html" data-en="Academics">পড়াশোনা</a></li>
+        <li><a href="admissions.html" data-en="Admissions">ভর্তি</a></li>
+        <li><a href="teachers.html" data-en="Teachers">শিক্ষক</a></li>
+        <li><a href="students.html" data-en="Students">শিক্ষার্থী</a></li>
+        <li><a href="results.html" data-en="Results">ফলাফল</a></li>
+        <li><a href="events.html" data-en="Events">অনুষ্ঠান</a></li>
+        <li><a href="gallery.html" data-en="Gallery">গ্যালারি</a></li>
+        <li><a href="notice.html" data-en="Notices">নোটিশ</a></li>
+        <li><a href="contact.html" data-en="Contact">যোগাযোগ</a></li>
       </ul>
-      <div class="nav-actions"><button class="lang-btn">বাংলা</button><a class="btn apply" href="admissions.html"><span
-            data-en>Apply Now</span><span data-bn>আবেদন করুন</span></a></div>
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="ভাষা বেছে নিন / Choose language">
+          <button type="button" data-lang="bn" aria-pressed="true" lang="bn">বাংলা</button>
+          <button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+        </div>
+        <a class="btn apply" href="admissions.html" data-en="Apply Now">ভর্তি হোন</a>
+      </div>
     </nav>
   </header>
+
   <main>
-    <section class="page-hero">
+    <section class="page-hero has-bg" style="--hero-bg: url('images/g-field.jpg')">
       <div class="container">
-        <div class="breadcrumbs">HOME / ABOUT</div>
-        <h1><span data-en>About</span><span data-bn>About</span></h1>
-        <p><span data-en>Our story, values and leadership.</span><span data-bn>Our story, values and leadership.</span>
-        </p>
+        <div class="breadcrumbs" data-en="HOME / ABOUT">হোম / পরিচিতি</div>
+        <h1 data-en="About Us">আমাদের পরিচয়</h1>
+        <p data-en="How a small neighbourhood school in Uposhohor grew into what it is today — and what we still care about.">উপশহরের ছোট্ট একটা পাড়ার স্কুল কীভাবে আজকের জায়গায় এল — আর কোন জিনিসগুলো আমরা এখনো আঁকড়ে ধরে আছি।</p>
       </div>
     </section>
     <section class="section">
       <div class="container">
-        <div class="split"><img
-            src="https://images.unsplash.com/photo-1560785496-3c9d27877182?auto=format&fit=crop&w=1200&q=85">
+        <div class="split"><img src="images/assembly.jpg" alt="সকালের সমাবেশে শিক্ষার্থীরা" data-en-alt="Students at the morning assembly" loading="lazy">
           <div class="split-copy">
-            <div class="eyebrow">Our Story</div>
-            <h2><span data-en>Learning should feel ambitious and human.</span><span data-bn>শিক্ষা হওয়া উচিত
-                উচ্চাকাঙ্ক্ষী ও মানবিক।</span></h2>
-            <p><span data-en>EduVision brings together strong teaching, creative opportunities and a supportive school
-                culture.</span><span data-bn>এডুভিশনে দক্ষ শিক্ষকতা, সৃজনশীল সুযোগ ও সহায়ক স্কুল সংস্কৃতির সমন্বয়
-                রয়েছে।</span></p>
+            <div class="eyebrow" data-en="Our Story">আমাদের গল্প</div>
+            <h2 data-en="Started by parents, for the neighbourhood.">অভিভাবকদের হাতে শুরু, পাড়ার ছেলেমেয়েদের জন্য।</h2>
+            <p data-en="In 1986 a group of guardians in Uposhohor rented three rooms and opened a school with 85 students. Today we have about 1,850 students, a college section, science and computer labs, and teachers many of whom studied here themselves.">১৯৮৬ সালে উপশহরের কয়েকজন অভিভাবক তিনটা ভাড়া ঘরে ৮৫ জন ছাত্রছাত্রী নিয়ে স্কুলটা শুরু করেন। এখন আমাদের প্রায় ১,৮৫০ জন শিক্ষার্থী, কলেজ শাখা, বিজ্ঞান আর কম্পিউটার ল্যাব আছে — আর শিক্ষকদের অনেকেই একসময় এখানকারই ছাত্র ছিলেন।</p>
             <ul class="checks">
-              <li>Student-first decisions</li>
-              <li>Respectful relationships</li>
-              <li>Continuous improvement</li>
-              <li>Community partnership</li>
+              <li data-en="Decisions start with what’s best for students">যেকোনো সিদ্ধান্তে আগে শিক্ষার্থীর ভালোটা দেখি</li>
+              <li data-en="Respect between teachers, students and families">শিক্ষক, শিক্ষার্থী আর পরিবারের মধ্যে সম্মান</li>
+              <li data-en="Always trying to do a bit better">প্রতি বছর একটু একটু করে আরও ভালো হওয়ার চেষ্টা</li>
+              <li data-en="Working hand in hand with the community">এলাকার মানুষের সাথে হাত মিলিয়ে চলা</li>
             </ul>
           </div>
         </div>
         <div style="height:25px"></div>
         <div class="feature-grid">
           <div class="feature">
-            <div class="feature-icon">01</div>
-            <h3>Our Vision</h3>
-            <p>Confident, compassionate learners ready for a changing world.</p>
+            <div class="feature-icon" data-en="01">০১</div>
+            <h3 data-en="Our Vision">আমাদের স্বপ্ন</h3>
+            <p data-en="Confident, kind young people who are ready for a changing world.">আত্মবিশ্বাসী, ভালো মনের মানুষ — যারা বদলে যাওয়া দুনিয়ার জন্য তৈরি।</p>
           </div>
           <div class="feature">
-            <div class="feature-icon">02</div>
-            <h3>Our Mission</h3>
-            <p>To make meaningful learning accessible, engaging and purposeful.</p>
+            <div class="feature-icon" data-en="02">০২</div>
+            <h3 data-en="Our Mission">আমাদের লক্ষ্য</h3>
+            <p data-en="Good, meaningful education at a cost ordinary families in Rajshahi can manage.">রাজশাহীর সাধারণ পরিবারগুলোর সাধ্যের মধ্যে ভালো, কাজের পড়াশোনা।</p>
           </div>
           <div class="feature">
-            <div class="feature-icon">03</div>
-            <h3>Our Values</h3>
-            <p>Integrity, curiosity, respect, responsibility and courage.</p>
+            <div class="feature-icon" data-en="03">০৩</div>
+            <h3 data-en="Our Values">আমাদের মূল্যবোধ</h3>
+            <p data-en="Honesty, curiosity, respect, responsibility and the courage to speak up.">সততা, জানার আগ্রহ, সম্মান, দায়িত্ববোধ আর সত্যি কথা বলার সাহস।</p>
           </div>
         </div>
       </div>
     </section>
+    <section class="section light">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow" data-en="At a Glance">এক নজরে</div>
+            <h2 data-en="The essentials.">দরকারি তথ্যগুলো।</h2>
+          </div>
+          <p data-en="Recognised by the government and listed under MPO. Affiliated with the Board of Intermediate and Secondary Education, Rajshahi.">সরকার স্বীকৃত ও এমপিওভুক্ত প্রতিষ্ঠান। মাধ্যমিক ও উচ্চ মাধ্যমিক শিক্ষা বোর্ড, রাজশাহীর অধীনে।</p>
+        </div>
+        <div class="table-wrap">
+          <table class="table">
+            <tr><th data-en="Founded">প্রতিষ্ঠা</th><td data-en="1986">১৯৮৬</td></tr>
+            <tr><th data-en="Classes">শ্রেণি</th><td data-en="Class 6 to 10 (school), Class 11 to 12 (college)">৬ষ্ঠ থেকে ১০ম (স্কুল), একাদশ ও দ্বাদশ (কলেজ)</td></tr>
+            <tr><th data-en="Groups">বিভাগ</th><td data-en="Science, Humanities, Business Studies">বিজ্ঞান, মানবিক, ব্যবসায় শিক্ষা</td></tr>
+            <tr><th data-en="Shifts">শিফট</th><td data-en="Morning (7:00 am – 12:00 pm) and Day (12:30 pm – 5:00 pm)">প্রভাতি (সকাল ৭টা – দুপুর ১২টা) ও দিবা (দুপুর সাড়ে ১২টা – বিকাল ৫টা)</td></tr>
+            <tr><th data-en="Board">বোর্ড</th><td data-en="Rajshahi Education Board">রাজশাহী শিক্ষা বোর্ড</td></tr>
+            <tr><th data-en="EIIN">EIIN</th><td data-en="123456">১২৩৪৫৬</td></tr>
+          </table>
+        </div>
+      </div>
+    </section>
   </main>
+
   <footer>
     <div class="container footer-grid">
       <div>
-        <div class="logo" style="color:#fff"><span class="logo-mark">E</span><span>EduVision<small
-              style="color:#a9bfba">SCHOOL & COLLEGE</small></span></div>
-        <p class="footer-desc"><span data-en>A modern learning community where curiosity, character and confidence grow
-            together.</span><span data-bn>একটি আধুনিক শিক্ষাঙ্গন, যেখানে কৌতূহল, চরিত্র ও আত্মবিশ্বাস একসঙ্গে বিকশিত
-            হয়।</span></p>
+        <div class="logo" style="color:#fff"><span class="logo-mark">শা</span><span><span data-en="Shapla Ideal">শাপলা আইডিয়াল</span><small style="color:#a9bfba" data-en="SCHOOL &amp; COLLEGE · RAJSHAHI">স্কুল অ্যান্ড কলেজ · রাজশাহী</small></span></div>
+        <p class="footer-desc" data-en="Since 1986, a neighbourhood school in Uposhohor, Rajshahi — good teaching, fair fees and every child known by name.">১৯৮৬ সাল থেকে রাজশাহীর উপশহরে পাড়ার স্কুল — ভালো পড়াশোনা, সাধ্যের মধ্যে খরচ, আর প্রতিটা ছেলেমেয়েকে নাম ধরে চেনা।</p>
       </div>
       <div>
-        <h3><span data-en>Explore</span><span data-bn>এক্সপ্লোর</span></h3><a href="about.html">About</a><a
-          href="academics.html">Academics</a><a href="teachers.html">Teachers</a><a href="gallery.html">Gallery</a>
+        <h3 data-en="Explore">ঘুরে দেখুন</h3><a href="about.html" data-en="About">পরিচিতি</a><a href="academics.html" data-en="Academics">পড়াশোনা</a><a href="teachers.html" data-en="Teachers">শিক্ষক</a><a href="gallery.html" data-en="Gallery">গ্যালারি</a>
       </div>
       <div>
-        <h3><span data-en>Student Life</span><span data-bn>শিক্ষার্থী জীবন</span></h3><a
-          href="students.html">Students</a><a href="events.html">Events</a><a href="results.html">Results</a><a
-          href="notice.html">Notices</a>
+        <h3 data-en="Student Life">শিক্ষার্থীদের জন্য</h3><a href="students.html" data-en="Students">শিক্ষার্থী</a><a href="events.html" data-en="Events">অনুষ্ঠান</a><a href="results.html" data-en="Results">ফলাফল</a><a href="notice.html" data-en="Notices">নোটিশ</a>
       </div>
       <div>
-        <h3><span data-en>Contact</span><span data-bn>যোগাযোগ</span></h3><a href="contact.html">+880 1700 000000</a><a
-          href="contact.html">info@eduvision.edu.bd</a><span style="font-size:12px">Gazipur, Bangladesh</span>
+        <h3 data-en="Contact">যোগাযোগ</h3><a href="contact.html" data-en="+880 1700-000000">০১৭০০-০০০০০০</a><a href="contact.html">info@yourschool.edu.bd</a><span style="font-size:12px" data-en="Sector 2, Uposhohor, Rajshahi-6202">সেক্টর ২, উপশহর, রাজশাহী-৬২০২</span>
       </div>
     </div>
-    <div class="container footer-bottom"><span>© 2026 EduVision School & College. All rights
-        reserved.</span><span>Designed for modern education.</span></div>
+    <div class="container footer-bottom"><span data-en="© 2026 Shapla Ideal School &amp; College. All rights reserved.">© ২০২৬ শাপলা আইডিয়াল স্কুল অ্যান্ড কলেজ। সর্বস্বত্ব সংরক্ষিত।</span><span data-en="EIIN: 123456 · Rajshahi Education Board">EIIN: ১২৩৪৫৬ · রাজশাহী শিক্ষা বোর্ড</span></div>
   </footer>
-  <button class="top-btn" aria-label="Back to top">↑</button>
-  <div class="toast"></div>
+  <button class="top-btn" aria-label="ওপরে যান" data-en-aria-label="Back to top">↑</button>
+  <div class="toast" role="status"></div>
   <script src="script.js"></script>
 </body>
 

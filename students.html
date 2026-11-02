@@ -1,48 +1,53 @@
 <!doctype html>
-<html lang="en">
+<html lang="bn">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Students | EduVision</title>
+  <script>try{if(localStorage.getItem("site-lang")==="en"){document.documentElement.lang="en";document.documentElement.classList.add("lang-pending");}}catch(e){}</script>
+  <title data-en="Students | Shapla Ideal School &amp; College">শিক্ষার্থী | শাপলা আইডিয়াল স্কুল অ্যান্ড কলেজ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="topbar">
-    <div class="container"><span>📞 +880 1700 000000</span><span>✉ info@eduvision.edu.bd</span><span><span
-          data-en>Admissions open for 2026–27</span><span data-bn>২০২৬–২৭ শিক্ষাবর্ষে ভর্তি চলছে</span></span></div>
+    <div class="container"><span>📞 <span data-en="+880 1700-000000">০১৭০০-০০০০০০</span></span><span>✉ info@yourschool.edu.bd</span><span data-en="Admissions open for the 2027 session">২০২৭ শিক্ষাবর্ষে ভর্তি চলছে</span></div>
   </div>
   <header class="header">
     <nav class="container nav">
-      <a class="logo" href="index.html"><span class="logo-mark">E</span><span>EduVision<small><span data-en>SCHOOL &
-              COLLEGE</span><span data-bn>স্কুল ও কলেজ</span></small></span></a>
-      <button class="menu-btn" aria-label="Menu">☰</button>
+      <a class="logo" href="index.html"><span class="logo-mark">শা</span><span><span data-en="Shapla Ideal">শাপলা আইডিয়াল</span><small data-en="SCHOOL &amp; COLLEGE · RAJSHAHI">স্কুল অ্যান্ড কলেজ · রাজশাহী</small></span></a>
+      <button class="menu-btn" aria-label="মেনু" data-en-aria-label="Menu">☰</button>
       <ul class="nav-links">
-        <li><a href="index.html"><span data-en>Home</span><span data-bn>হোম</span></a></li>
-        <li><a href="about.html"><span data-en>About</span><span data-bn>আমাদের সম্পর্কে</span></a></li>
-        <li><a href="academics.html"><span data-en>Academics</span><span data-bn>শিক্ষা কার্যক্রম</span></a></li>
-        <li><a href="admissions.html"><span data-en>Admissions</span><span data-bn>ভর্তি</span></a></li>
-        <li><a href="teachers.html"><span data-en>Teachers</span><span data-bn>শিক্ষকবৃন্দ</span></a></li>
-        <li><a href="students.html" class="active"><span data-en>Students</span><span data-bn>শিক্ষার্থীবৃন্দ</span></a>
-        </li>
-        <li><a href="results.html"><span data-en>Results</span><span data-bn>ফলাফল</span></a></li>
-        <li><a href="events.html"><span data-en>Events</span><span data-bn>ইভেন্ট</span></a></li>
-        <li><a href="gallery.html"><span data-en>Gallery</span><span data-bn>গ্যালারি</span></a></li>
-        <li><a href="notice.html"><span data-en>Notices</span><span data-bn>নোটিশ</span></a></li>
-        <li><a href="contact.html"><span data-en>Contact</span><span data-bn>যোগাযোগ</span></a></li>
+        <li><a href="index.html" data-en="Home">হোম</a></li>
+        <li><a href="about.html" data-en="About">পরিচিতি</a></li>
+        <li><a href="academics.html" data-en="Academics">পড়াশোনা</a></li>
+        <li><a href="admissions.html" data-en="Admissions">ভর্তি</a></li>
+        <li><a href="teachers.html" data-en="Teachers">শিক্ষক</a></li>
+        <li><a href="students.html" class="active" data-en="Students">শিক্ষার্থী</a></li>
+        <li><a href="results.html" data-en="Results">ফলাফল</a></li>
+        <li><a href="events.html" data-en="Events">অনুষ্ঠান</a></li>
+        <li><a href="gallery.html" data-en="Gallery">গ্যালারি</a></li>
+        <li><a href="notice.html" data-en="Notices">নোটিশ</a></li>
+        <li><a href="contact.html" data-en="Contact">যোগাযোগ</a></li>
       </ul>
-      <div class="nav-actions"><button class="lang-btn">বাংলা</button><a class="btn apply" href="admissions.html"><span
-            data-en>Apply Now</span><span data-bn>আবেদন করুন</span></a></div>
+      <div class="nav-actions">
+        <div class="lang-switch" role="group" aria-label="ভাষা বেছে নিন / Choose language">
+          <button type="button" data-lang="bn" aria-pressed="true" lang="bn">বাংলা</button>
+          <button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+        </div>
+        <a class="btn apply" href="admissions.html" data-en="Apply Now">ভর্তি হোন</a>
+      </div>
     </nav>
   </header>
+
   <main>
-    <section class="page-hero">
+    <section class="page-hero has-bg" style="--hero-bg: url('images/g-playground.jpg')">
       <div class="container">
-        <div class="breadcrumbs">HOME / STUDENTS</div>
-        <h1><span data-en>Students</span><span data-bn>Students</span></h1>
-        <p><span data-en>Student life, support, clubs and opportunities.</span><span data-bn>Student life, support,
-            clubs and opportunities.</span></p>
+        <div class="breadcrumbs" data-en="HOME / STUDENTS">হোম / শিক্ষার্থী</div>
+        <h1 data-en="Student Life">শিক্ষার্থীদের জীবন</h1>
+        <p data-en="Classes end, but school doesn’t. Sport, clubs, scouts and plenty of chances to try something new.">ক্লাস শেষ মানেই স্কুল শেষ না। খেলাধুলা, ক্লাব, স্কাউট আর নতুন কিছু করে দেখার অনেক সুযোগ।</p>
       </div>
     </section>
     <section class="section">
@@ -50,51 +55,71 @@
         <div class='feature-grid'>
           <div class='feature'>
             <div class='feature-icon'>⚽</div>
-            <h3>Sports</h3>
-            <p>Football, cricket, athletics and fitness activities.</p>
+            <h3 data-en="Sports">খেলাধুলা</h3>
+            <p data-en="Cricket, football, kabaddi and athletics. Our cricket team reached the 2026 Rajshahi divisional semi-final.">ক্রিকেট, ফুটবল, কাবাডি আর অ্যাথলেটিক্স। ২০২৬ সালে আমাদের ক্রিকেট দল রাজশাহী বিভাগীয় সেমিফাইনাল খেলেছে।</p>
           </div>
           <div class='feature'>
             <div class='feature-icon'>◈</div>
-            <h3>Clubs</h3>
-            <p>Science, debate, coding, arts and language clubs.</p>
+            <h3 data-en="Clubs">ক্লাব</h3>
+            <p data-en="Debate, science, English language, art and a reading club that runs the school library corner.">বিতর্ক, বিজ্ঞান, ইংলিশ ল্যাঙ্গুয়েজ, চারুকলা — আর পাঠচক্র, যারা লাইব্রেরি কর্নারটা দেখাশোনা করে।</p>
+          </div>
+          <div class='feature'>
+            <div class='feature-icon'>⚜</div>
+            <h3 data-en="Scouts, Girl Guides &amp; BNCC">স্কাউট, গার্ল গাইড ও বিএনসিসি</h3>
+            <p data-en="Discipline, first aid and community service. Our scouts help out at every school event and national day.">শৃঙ্খলা, প্রাথমিক চিকিৎসা আর সমাজসেবা। স্কুলের প্রতিটা অনুষ্ঠান আর জাতীয় দিবসে স্কাউটরাই সামলায়।</p>
+          </div>
+          <div class='feature'>
+            <div class='feature-icon'>♪</div>
+            <h3 data-en="Culture">সংস্কৃতি</h3>
+            <p data-en="Songs, recitation and drama for Pohela Boishakh, 21 February and Victory Day.">পহেলা বৈশাখ, একুশে ফেব্রুয়ারি আর বিজয় দিবসে গান, আবৃত্তি আর নাটক।</p>
+          </div>
+          <div class='feature'>
+            <div class='feature-icon'>✎</div>
+            <h3 data-en="Student Cabinet">স্টুডেন্ট কেবিনেট</h3>
+            <p data-en="Elected every year by students. They bring student concerns straight to the headmaster.">প্রতি বছর ছাত্রছাত্রীরাই ভোট দিয়ে বেছে নেয়। তাদের সমস্যার কথা সরাসরি প্রধান শিক্ষকের কাছে পৌঁছে দেয়।</p>
           </div>
           <div class='feature'>
             <div class='feature-icon'>♥</div>
-            <h3>Wellbeing</h3>
-            <p>Counselling, mentoring and a caring student support system.</p>
+            <h3 data-en="Counselling">কাউন্সেলিং</h3>
+            <p data-en="A trained teacher-counsellor is available every day for students who need someone to talk to.">কারও মন খারাপ বা কথা বলার কাউকে দরকার হলে প্রশিক্ষিত শিক্ষক-কাউন্সেলর প্রতিদিন আছেন।</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section mint">
+      <div class="container">
+        <div class="split"><img src="images/g-sports-opening.jpg" alt="বার্ষিক ক্রীড়া প্রতিযোগিতার উদ্বোধনে সারিবদ্ধ শিক্ষার্থীরা" data-en-alt="Students lined up at the opening of the annual sports day" loading="lazy">
+          <div class="split-copy">
+            <div class="eyebrow" data-en="Annual Sports">বার্ষিক ক্রীড়া</div>
+            <h2 data-en="The day everyone waits for.">যে দিনটার জন্য সবাই অপেক্ষা করে।</h2>
+            <p data-en="Every January the whole school comes out to the field — march past, races, sack race, and the teachers’ tug of war that nobody wants to miss.">প্রতি জানুয়ারিতে পুরো স্কুল মাঠে নামে — মার্চপাস্ট, দৌড়, বস্তা দৌড়, আর শিক্ষকদের দড়ি টানাটানি, যেটা কেউ মিস করতে চায় না।</p>
+            <a class="btn dark" href="events.html" data-en="See all events →">সব অনুষ্ঠান দেখুন →</a>
           </div>
         </div>
       </div>
     </section>
   </main>
+
   <footer>
     <div class="container footer-grid">
       <div>
-        <div class="logo" style="color:#fff"><span class="logo-mark">E</span><span>EduVision<small
-              style="color:#a9bfba">SCHOOL & COLLEGE</small></span></div>
-        <p class="footer-desc"><span data-en>A modern learning community where curiosity, character and confidence grow
-            together.</span><span data-bn>একটি আধুনিক শিক্ষাঙ্গন, যেখানে কৌতূহল, চরিত্র ও আত্মবিশ্বাস একসঙ্গে বিকশিত
-            হয়।</span></p>
+        <div class="logo" style="color:#fff"><span class="logo-mark">শা</span><span><span data-en="Shapla Ideal">শাপলা আইডিয়াল</span><small style="color:#a9bfba" data-en="SCHOOL &amp; COLLEGE · RAJSHAHI">স্কুল অ্যান্ড কলেজ · রাজশাহী</small></span></div>
+        <p class="footer-desc" data-en="Since 1986, a neighbourhood school in Uposhohor, Rajshahi — good teaching, fair fees and every child known by name.">১৯৮৬ সাল থেকে রাজশাহীর উপশহরে পাড়ার স্কুল — ভালো পড়াশোনা, সাধ্যের মধ্যে খরচ, আর প্রতিটা ছেলেমেয়েকে নাম ধরে চেনা।</p>
       </div>
       <div>
-        <h3><span data-en>Explore</span><span data-bn>এক্সপ্লোর</span></h3><a href="about.html">About</a><a
-          href="academics.html">Academics</a><a href="teachers.html">Teachers</a><a href="gallery.html">Gallery</a>
+        <h3 data-en="Explore">ঘুরে দেখুন</h3><a href="about.html" data-en="About">পরিচিতি</a><a href="academics.html" data-en="Academics">পড়াশোনা</a><a href="teachers.html" data-en="Teachers">শিক্ষক</a><a href="gallery.html" data-en="Gallery">গ্যালারি</a>
       </div>
       <div>
-        <h3><span data-en>Student Life</span><span data-bn>শিক্ষার্থী জীবন</span></h3><a
-          href="students.html">Students</a><a href="events.html">Events</a><a href="results.html">Results</a><a
-          href="notice.html">Notices</a>
+        <h3 data-en="Student Life">শিক্ষার্থীদের জন্য</h3><a href="students.html" data-en="Students">শিক্ষার্থী</a><a href="events.html" data-en="Events">অনুষ্ঠান</a><a href="results.html" data-en="Results">ফলাফল</a><a href="notice.html" data-en="Notices">নোটিশ</a>
       </div>
       <div>
-        <h3><span data-en>Contact</span><span data-bn>যোগাযোগ</span></h3><a href="contact.html">+880 1700 000000</a><a
-          href="contact.html">info@eduvision.edu.bd</a><span style="font-size:12px">Gazipur, Bangladesh</span>
+        <h3 data-en="Contact">যোগাযোগ</h3><a href="contact.html" data-en="+880 1700-000000">০১৭০০-০০০০০০</a><a href="contact.html">info@yourschool.edu.bd</a><span style="font-size:12px" data-en="Sector 2, Uposhohor, Rajshahi-6202">সেক্টর ২, উপশহর, রাজশাহী-৬২০২</span>
       </div>
     </div>
-    <div class="container footer-bottom"><span>© 2026 EduVision School & College. All rights
-        reserved.</span><span>Designed for modern education.</span></div>
+    <div class="container footer-bottom"><span data-en="© 2026 Shapla Ideal School &amp; College. All rights reserved.">© ২০২৬ শাপলা আইডিয়াল স্কুল অ্যান্ড কলেজ। সর্বস্বত্ব সংরক্ষিত।</span><span data-en="EIIN: 123456 · Rajshahi Education Board">EIIN: ১২৩৪৫৬ · রাজশাহী শিক্ষা বোর্ড</span></div>
   </footer>
-  <button class="top-btn" aria-label="Back to top">↑</button>
-  <div class="toast"></div>
+  <button class="top-btn" aria-label="ওপরে যান" data-en-aria-label="Back to top">↑</button>
+  <div class="toast" role="status"></div>
   <script src="script.js"></script>
 </body>
 
